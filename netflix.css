@@ -1,0 +1,436 @@
+*
+{
+    margin:0;
+    padding: 0;
+    font-family:Microsoft YaHei UI;
+}
+
+main{
+    width:100%;
+    height: 100vh;
+ 
+  
+}
+nav
+{
+    height:60px;
+    width:100%;
+    display: flex;
+}
+nav .leftnav 
+{   align-items: start;
+    height:60px;
+}
+nav .leftnav img
+{
+    margin: 10px;
+  
+    width:15%;   
+}
+nav .rightnav 
+{
+    height:60px;
+    align-items: end;
+    display: flex;
+
+}
+main  nav .rightnav #signbtn
+    {    
+    width:80px;
+    height:35px;
+    border: none;
+    background-color: rgb(219, 28, 28);
+    font-size: 13px;
+    margin: 8px;
+    border-radius: 5px;
+      color:white;
+}
+main  nav .rightnav select
+{
+    width:80px;
+    height:35px;
+    border: 1 px solid white;
+    background-color:rgb(11, 10, 10);
+    font-size: 13px;
+    margin: 8px;
+    border-radius: 5px;
+  color:white;
+}
+ /* __________________________1____________________________________ */
+
+main .firstsection
+{
+    background-image: url("assets/imeges/img1.jpg");
+    background-repeat: no-repeat;
+    filter:drop-shadow(20);
+   position: relative;
+    height: 550px;
+}
+main .box
+{      
+   
+    height: 550px;
+    position: absolute;
+    top: 0;
+    width:100%;
+    opacity: 0.1;
+    background-color: rgb(11, 11, 11);
+   
+}
+main  h1{
+  
+    font-size: 40px;
+  margin: auto;
+ 
+ text-align: center;
+ margin-top: 30vh;
+    font-display:initial;
+      font-weight:1000;
+    color:white;
+    align-items: center;
+    justify-content: center;
+}
+main  p{
+    font-size: 18px;
+  margin: auto;
+ text-align: center;
+    padding: 10px;
+    font-display:initial;
+    color:white;
+    align-items: center;
+    justify-content: center;
+}
+main  #startbtn
+{
+    width:200px;
+    height:55px;
+    border: none;
+    background-color: rgb(219, 28, 28);
+    font-size: 20px;
+    border-radius: 5px;
+    margin-top: 15px;
+     color:white;
+
+
+}
+
+main  input
+{
+    width:30vw;
+    height:55px;
+    background-color:black;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1.5px solid white;
+    margin-left: 60vh;
+    margin-top: 10px;
+      
+}
+ hr{
+    width:100vw;
+    height:7px;
+    background-color:rgb(47, 45, 45);
+  border: none;
+}
+ /* __________________________2____________________________________ */
+
+main .secondsection
+{
+    background:black;
+    height: 500px;
+    position: relative;
+    display: flex;
+}
+main .secondsection .secleft
+{    
+    width:50vw;
+    position: relative;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 500px;
+}
+main .secondsection .secleft h2{
+    margin-top:30%;
+   margin-left: 7%;
+  font-size: 30px;
+  font-weight:700;
+}
+main .secondsection .secleft p{
+
+   margin-left: 7%;
+   padding-top: 8px;
+  font-size: 15px;
+  white-space: 2px;
+}
+main .secondsection .secright
+{
+    width:50vw;
+  position: relative;
+    height: 500px;
+}
+main .secondsection .secright img{
+    margin: 50 50px;
+    width:45vw;
+    position:absolute;
+  
+} 
+main .secondsection .secright video
+{
+    position:relative;
+    margin: 140 127px;
+    
+    width:32.5vw;
+}
+/* __________________________3____________________________________ */
+
+main .thirdsection
+{
+    background:rgb(0, 0, 0);
+    height: 450px;
+    display: flex;
+}
+main .thirdsection .thirdright
+{   margin-left: 50px;
+    width:50vw;
+    color: white;
+    height: 450px;
+}
+main .thirdsection .thirdleft img{
+    
+    width:45vw;
+  
+}
+
+main .thirdsection .thirdright h2{
+    margin-top:30%;
+   margin-left: 7%;
+  font-size: 30px;
+  font-weight:700;
+}
+main .thirdsection .thirdright h3{
+   
+   margin-left: 7%;
+  font-size: 30px;
+  font-weight:700;
+}
+main .thirdsection .thirdright p
+{
+
+   margin-left: 7%;
+   padding-top: 8px;
+  font-size: 15px;
+  white-space: 2px;
+ } 
+ /* __________________________4____________________________________ */
+ 
+main .foursection
+{
+    background:rgb(0, 0, 0);
+    height: 500px;
+    position: relative;
+    display: flex;
+}
+main .foursection .fourleft
+{    
+    width:50vw;
+  
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 500px;
+}
+main .foursection .fourleft h2{
+    margin-top:30%;
+   margin-left: 7%;
+  font-size: 30px;
+  font-weight:700;
+}
+main .foursection .fourleft p{
+
+   margin-left: 7%;
+   padding-top: 8px;
+  font-size: 15px;
+  white-space: 2px;
+}
+main .foursection .fourright
+{
+    width:50vw;
+    position: relative;
+
+    height: 500px;
+}
+main .foursection .fourright img{
+    margin: 50 50px;
+    width:40vw;
+    position:absolute;
+  
+} 
+main  .foursection .fourright video
+{
+    position:absolute;
+   margin: auto;
+   top:50%;
+  
+    margin: auto;
+    top: 85px;
+    left: 147px;
+    width: 309px;
+}
+   
+  /* __________________________5____________________________________ */
+
+main .fivesection
+{
+    background:rgb(0, 0, 0);
+    height: 450px;
+    display: flex;
+}
+main .fivesection .fiveright
+{   margin-left: 50px;
+    width:50vw;
+    color: white;
+    height: 450px;
+}
+main .fivesection .fiveleft img{
+    
+    width:45vw;
+  
+}
+
+main .fivesection .fiveright h2{
+    margin-top:20%;
+   margin-left: 7%;
+  font-size: 30px;
+  font-weight:700;
+text-shadow: 10px 10px 100px rgba(250, 250, 250, 0.93);
+
+}
+main .fivesection .fiveright h3{
+   
+   margin-left: 7%;
+  font-size: 30px;
+  font-weight:700;
+}
+main .fivesection .fiveright p
+{
+
+   margin-left: 7%;
+   padding-top: 8px;
+  font-size: 15px;
+  white-space: 2px;
+ } 
+/* ___________________________________________6______________________________ */
+main .sixsection
+{
+    background:rgb(0, 0, 0);
+    height: 630px;
+  
+}
+main .sixsection h2{
+ padding: 20px 10px;
+    color: rgb(255, 255, 255);
+    align-items: center;
+    font-size: 35px;
+    text-align: center;
+}
+main .sixsection .ques{
+    width:90%;
+    display: flex;
+    margin: 5px;
+    margin-left: 5%;
+    background:rgb(84, 80, 80);
+    height: 60px;
+    justify-content: center;
+
+}
+main .sixsection .ques .left{
+    font-size: 15px;
+    color: white;
+   width: 95%;
+   margin: auto;
+}
+main .sixsection .ques .right{
+    font-size: 30px;
+    color:white;
+    margin: auto;
+}
+main .sixsection p
+{
+    padding:10px;
+    color: rgb(255, 255, 255);
+    align-items: center;
+    font-size: 17px;
+    text-align: center;
+}
+main .sixsection #startbtn
+{
+    width:150px;
+    height:40px;
+    border: none;
+    background-color: rgb(219, 28, 28);
+    font-size: 20px;
+    border-radius: 5px;
+    margin-top: 15px;
+     color:white;
+
+
+}
+main .sixsection input
+{
+    width:20vw;
+    height:40px;
+    background-color:black;
+    font-size: 13px;padding: 5px;
+    border-radius: 5px;
+    border: 1.5px solid white;
+    margin-left: 60vh;
+    margin-top: 10px;
+      
+}
+/* ______________________________7_____________________________________ */
+main .sevensection
+{
+    background:rgb(0, 0, 0);
+    height: 400px;
+    color: white;
+}
+main .sevensection p
+{
+    padding-left:7%;
+    padding-bottom: 20px;
+    padding-top: 30px;
+    color: grey;
+    font-size: 17px;
+   
+}
+main .sevensection .ulcon
+{
+    display: flex;
+    justify-content: space-around;
+  
+}
+
+main .sevensection .ulcon li{
+    text-decoration: none;
+    padding: 5px;
+    color: grey;
+    text-decoration: underline;
+    font-size: 15px;
+    list-style:none ;
+}
+main  .sevensection select
+{
+    width:100px;
+    height:35px;
+  margin-left: 7%;
+  margin-top: 20px;
+    border: 1px solid white;
+    background-color:rgb(11, 10, 10);
+    font-size: 13px;
+   
+    border-radius: 5px;
+  color:white;
+}
